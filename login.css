@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 640px){
+    a{
+      
+          background-color: transparent;
+      
+    }
+    svg{
+        margin-left: 25px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .cabecalho{
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    #tittle{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 1000;
+        font-size: 22px;
+    }
+    #descricao{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(176, 176, 176);
+    }
+    .boxs{
+       width: 360px;
+       height: 500px;
+       position: relative;
+       left: 50%;
+       margin-left: -155px;
+
+    }
+    label{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    input{
+        margin-top: 8px;
+        width: 290px;
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        background-color: #fafafaff;
+        padding: 0 10px;
+        outline: none;
+    }
+    #email{
+        margin-bottom: 15px;
+    }
+    button{
+        width: 310px;
+        height: 45px;
+        border-radius: 10px;
+    }
+    #btn-login{
+        background-color: #2e7556ff ;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+    }
+
+    #esq-senha{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #2e7556ff;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .cont2{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 13%;
+    }
+    #tem-conta{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(176, 176, 176);
+    }
+    #inscreverse{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        
+    }
+    .linha{
+        width: 130px;
+        height: 1px;
+        background-color: rgb(176, 176, 176);
+        display: inline-flex;
+        margin-bottom: 4px;
+        
+        
+    }
+    #ou{
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;  
+        color: rgb(176, 176, 176);
+    }
+
+    #btn-google{
+        margin-top: 25px;
+        margin-bottom: 8px;
+        background-color: #fff;
+        border: 1px solid rgb(176, 176, 176);
+    }
+
+   .boxs img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+   }
+
+    #btn-google span, #btn-facebook span{
+       vertical-align: super;
+    }
+
+    #btn-facebook{
+        border: 0;
+        background-color: #fff;
+        border: 1px solid rgb(176, 176, 176);
+    }
+
+    
+
+  
+}
