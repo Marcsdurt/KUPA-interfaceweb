@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 640px){
+  a{
+    background-color: transparent;
+    
+  }
+  svg{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .cabecalho{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+    #tittle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 22px;
+}
+    #descricao{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(176, 176, 176);
+}
+    .boxs{
+    width: 360px;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+
+ }
+    label{
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+     font-weight: 700;
+ }
+    input{
+     margin-top: 8px;
+     width: 290px;
+     height: 45px;
+     border-radius: 10px;
+     border: none;
+     background-color: #fafafaff;
+     padding: 0 10px;
+     outline: none;
+ }
+    #nome{
+        margin-bottom: 15px;
+    }
+    #email{
+        margin-bottom: 15px;
+    }
+    .olho{
+     position: absolute;
+     right: 70px;
+}
+    #hidden1{
+     display: none;
+}
+    #btn-login{
+     width: 310px;
+     height: 45px;
+     border-radius: 10px;
+     background-color: #2e7556ff ;
+     color: #fff;
+     font-family: 'Poppins', sans-serif;
+     border: none;
+     margin-top: 25px;
+}
+    .cont2{
+     text-align: center;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     margin-right: 13%;
+}
+    #tem-conta{
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+     font-weight: 500;
+     color: rgb(176, 176, 176);
+}
+    #logar{
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+     font-weight: 600;
+    
+}
+    .rodape{
+        margin-top: 30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+    }
+    .rodape #text-rodape{
+        color: rgb(176, 176, 176);
+    }
+    .rodape a{
+        color: #2e7556ff;
+        text-decoration: none;
+        font-weight: 800;
+    }
+}
