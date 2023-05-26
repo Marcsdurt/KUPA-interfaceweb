@@ -1,2 +1,3 @@
 # KUPA-interfaceweb
 interface de um aplicativo/site de comida.
+*apenas algumas telas...
